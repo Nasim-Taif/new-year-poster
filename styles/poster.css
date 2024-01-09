@@ -7,7 +7,7 @@ header{
    background-position: center;
    background-size:cover;
    width: 1400px;
-   margin-left: 195px;
+   margin-left: 230px;
    border-radius: 16px;
 
    border-bottom: 100px;
@@ -85,7 +85,7 @@ letter-spacing: 7.04px;
     background-position: center;
     background-size:cover;
    width: 1400px;
-   margin-left: 195px;
+   margin-left: 230px;
    border-radius: 10px;
   
 }
@@ -140,7 +140,7 @@ font-style: normal;
 font-weight: 400;
 }
 .gift{
-    margin-left: 195px;
+    margin-left: 230px;
     align-items: center;
     text-align: left;
 }
@@ -156,7 +156,7 @@ font-weight: 400;
 background: rgba(255, 0, 0, 0.05);
 width: 1400px;
 height: 500px;
-margin-left: 195px;
+margin-left: 230px;
 text-align: center;
 margin-bottom: 100px;
 margin-top: 100px;
@@ -196,4 +196,37 @@ background: #F00;
 padding: 10px 15px;
 border: none;
 font-size: 16px;
+}
+
+/* footer section styles */
+
+.footer{
+    background: #070211;
+    height: 600px;
+}
+
+.footer-adress{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+
+}
+.footer-adress-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 230px 50px 230px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    margin:35px 0px 35px 0px;
+}
+.footer-icons img {
+    margin-right: 35px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 150px 50px 230px;
+
 }
